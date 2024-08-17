@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Encriptador de Texto</title>
+</head>
+
+<body>
+    <header>
+        <a href="a">
+            <img src="/imagenes/Logo.png" alt="logo" class="logo">
+        </a>
+    </header>
+
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="texto-aviso">
+                <p>Solo letras minusculas y sin acentos</p>
+            </div>
+            <div class="encriptador-contenedor">
+                <button class="btn-encriptar">Encriptar!</button>
+                <button class="btn-desencriptar">Desencriptar!</button>
+            </div>
+        </section>
+        <section class="tarjeta">
+            <div class="tarjeta-contenedor">
+                <img src="/imagenes/Muñeco.png" alt="Muñeco" class="img-muñeco">
+                <p class="texto-uno">Ningún mensaje fue encotrado</p>
+                <p class="texto-dos">Ingrese el texto que desea encriptar o desencriptar</p>
+            </div>
+            <textarea type="mensaje" class="evaluar" readonly></textarea>
+            <button class="btn-copiar">Copiar</button>
+        </section>
+    </main>
+
+    <footer>
+        <p class="footer">Desarrollado por Jordan Calvo</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
